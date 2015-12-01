@@ -40,4 +40,27 @@
 Ctrl + P, Ctrl + Q
 
 # READ  Drupal's ReadMe
+ `chown www-data www-data -R /app`
+
+
+# Symfony2 Install
+
+-  Install the symfony installer
+
+  `wget http://symfony.com/installer`
+
+ `mv installer /usr/local/bin/symfony`
+
+
+  `chmod a+x /usr/local/bin/symfony` 
+
+- 
+
+  `symfony new my_project`
+  `symfony new my_project 2.8`
+  `chown -R www-data:www-data my_project`
+
+
+
+
 
