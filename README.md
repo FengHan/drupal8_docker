@@ -7,7 +7,9 @@
 - mysql
 
 	`sudo docker run --name some-mysql -v /web/data1:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=111 -d mysql`
+	
 	`sudo docker inspect some-mysql`
+	
 	`mysql -uroot -p111 -h 172.16.0.2`
 - web server
 
