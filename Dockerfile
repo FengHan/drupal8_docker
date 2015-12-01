@@ -51,7 +51,7 @@ RUN apt-get update \
     # Web Dir
     && mkdir -p /app \ 
     && chown -R www-data:www-data /app \
-Add ./puppet/nginx/drupal8.conf /etc/nginx/sites-available
+Add ./puppet/nginx/ /etc/nginx/sites-available
 
 RUN service nginx reload && service php5-fpm restart
 
