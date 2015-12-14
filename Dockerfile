@@ -47,6 +47,8 @@ RUN apt-get update \
     # Install Drupal  Drush
     && export PATH="$HOME/.composer/vendor/bin:$PATH" \  
     && composer global require drush/drush \
+    # Install Coder
+    && composer global require drupal/coder \
 
     # Web Dir
     && mkdir -p /app \ 
