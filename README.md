@@ -62,8 +62,12 @@ Ctrl + P, Ctrl + Q
   `symfony new my_project`
   `symfony new my_project 2.8`
   `chown -R www-data:www-data my_project`
+# Delete all docke container
+- docker 删除基于镜像的所有容器：
+
+    `sudo docker ps -a | awk '{ print $1,$2 }' | grep  这里是镜像的名称| awk '{print $1 }' | xargs -I {} sudo docker rm {}`
 
 
+- 删除所有包含hanfeng 的镜像
 
-
-
+sudo docker images | awk '{ print $1,$2 }' | grep hanfeng| awk '{print $1 }' | xargs -I {} sudo docker rmi {}
