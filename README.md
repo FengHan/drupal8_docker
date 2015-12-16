@@ -1,7 +1,10 @@
-# Install Docker through daocloud
-### Ubuntu source list
+# Vagrant + Docker + Puppet Best Practise
+
+## Ubuntu Sourcelist
 - http://wiki.ubuntu.org.cn/源列表
-#### https://dashboard.daocloud.io/mirror
+
+## Docker. 
+- https://dashboard.daocloud.io/mirror
 
 - curl -sSL https://get.daocloud.io/docker | sh
 - sudo service docker status
@@ -9,6 +12,7 @@
 - dao pull ubuntu
 - dao pull smerrill/vagrant-ubuntu-trusty-puppet
 
+## Vagrant
 
 # Michael Drupal8 Dockerfile
 
