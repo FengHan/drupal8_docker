@@ -30,6 +30,9 @@
 - web server
 
 	`sudo docker run --name drupal8 --link some-mysql:mysql -v /web/drupal8:/app/ -it qthhanfeng/u0`
+- Start Server
+	`sudo docker start some-mysql`
+	`sudo docker start drupal8`
 
 # Useful Command
 
