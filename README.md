@@ -9,6 +9,7 @@
 - curl -sSL https://get.daocloud.io/docker | sh
 - sudo service docker status
 - curl -sSL https://get.daocloud.io/daomonit/install.sh | sh -s a805c99cf82d47faed274dfabc79a7449aa1d8bf 
+- sudo usermod -aG docker vagrant
 - dao pull ubuntu
 - dao pull smerrill/vagrant-ubuntu-trusty-puppet
 
