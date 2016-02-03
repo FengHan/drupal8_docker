@@ -14,6 +14,9 @@
 - dao pull smerrill/vagrant-ubuntu-trusty-puppet
 
 ## Vagrant
+Ubuntu 14.0.4 
+Locate `/opt/vagrant/embedded/gems/gems/vagrant-*/lib/vagrant` in the vagrant installation location, replace all `https://rubygems.org` with `https://ruby.taobao.org`, delete line `gemfile.puts(%Q[source "http://gems.hashicorp.com"])`.
+
 
 # Michael Drupal8 Dockerfile
 
